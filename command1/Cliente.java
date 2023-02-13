@@ -26,14 +26,14 @@ public class Cliente {
 	        Scanner in = new Scanner(System.in);
 	        do{
 	            System.out.println("Seleccione una de las siguientes opciones:");
-	            System.out.println("1. Encender el auto");
-	            System.out.println("2. Apagar el auto");
-	            System.out.println("3. poner la alarma");
-	            System.out.println("4. quitar la alarma ");
+	            System.out.println("1. ENCENDER EL CARRO");
+	            System.out.println("2. APAGAR EL CARRO");
+	            System.out.println("3. CONFIGURAR  LA ALARMA Y ENCENDERLA");
+	            System.out.println("4. CONFIGURAR  LA ALARMA Y APAGARLA ");
 	            System.out.println("5. Salir");
 	            opcion = in.nextInt();
 	            if(opcion < 1 || opcion > 5){
-	                System.out.println("Opcion incorrecta, netnte nuevamente");
+	                System.out.println("Opcion incorrecta, HAGALO NUEVAMENTE");
 	            }
 	        }while(opcion < 1 || opcion > 5);
 	        return opcion;
